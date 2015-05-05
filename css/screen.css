@@ -1,0 +1,283 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+  background-color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #222;
+  font-size: 16px;
+}
+
+
+header nav {
+  background: rgba(245, 245, 245, 0.95);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+  text-transform: uppercase;
+  color: #f47321;
+  font-size: 1.25em;
+}
+
+footer nav {
+  background: rgba(255, 255, 255, 0.95);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #ccc;
+  text-transform: uppercase;
+  color: #f47321;
+  font-size: 1.25em;
+}
+
+#resume nav {
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+nav ul {
+  padding: 1em;
+  list-style: none;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+nav ul li {
+  display: inline-block;
+  border-right: 1px solid #ccc;
+  margin-right: 2em;
+  padding-right: 2em;
+  white-space: nowrap;
+}
+
+#resume nav ul li {
+  border-right: 0;
+}
+
+nav ul li:first-child {
+  border: 0;
+}
+
+nav ul li:last-child {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li a:visited {
+  color: #005030;
+}
+
+nav ul li a:hover {
+  color: #f47321;
+}
+
+section {
+  padding: 2em;
+  margin: 0 auto;
+  max-width: 55%;
+  background: #fff;
+  overflow: auto;
+}
+
+#resume section {
+  padding: 1.5em;
+}
+
+
+section:last-child {
+  border-bottom: 0;
+}
+
+article {
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+
+h1 {
+  visibility: hidden;
+}
+
+#about h1 {
+  margin-top: 3em;
+  text-align: center;
+  font-size: 3em;
+  text-transform: uppercase;
+  visibility: visible;
+}
+
+#index h1 {
+  margin-top: 2em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: center;
+  font-size: 4em;
+  text-transform: uppercase;
+  visibility: visible;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+#resume h2 {
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+#resume h3 {
+  font-size: 1.25em;
+  margin-top: 0;
+}
+
+h3 strong {
+  font-weight: bold;
+}
+
+h4{
+  font-size: 1.05em;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+#resume h4{
+  font-size: 1.05em;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: #005030;
+}
+
+a:hover {
+  color: #f47321;
+}
+
+main {
+  padding-bottom: 5em;
+}
+
+ul.stats {
+  list-style: none;
+  padding-left: 0;
+}
+
+#resume main ul {
+  line-height: 1.5;
+  margin: 0;
+}
+
+ul.stats li {
+  display: inline-block;
+  font-size: 2em;
+  margin-left: 1em;
+  color: #f47321;
+  text-align: center;
+}
+
+ul.stats li span {
+    display: block;
+    font-size: 0.75em;
+    color: #222;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+address {
+  font-style: normal;
+}
+
+#resume p {
+  line-height: 1.5;
+  margin: 0;
+}
+
+table th,
+table td {
+  padding: 0.25em;
+}
+
+table th {
+  text-align: left;
+  padding-right: 1em;
+}
+
+blockquote {
+  border: 1px dashed #333;
+  padding: 1em;
+  margin-left: 0;
+}
+
+blockquote p:first-child {
+  padding: 0;
+  font-size: 1.1em;
+  margin-right: 3em;
+  color: #222;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+blockquote p:first-child:hover {
+  -webkit-filter: blur(0);
+  -moz-filter: blur(0);
+  -o-filter: blur(0);
+  -ms-filter: blur(0);
+  filter: blur(0);
+  color: #222;
+  transition: filter 1s ease;
+}
+
+blockquote p:last-child {
+  text-align: right;
+  font-weight: bold;
+}
+
+section img {
+  max-width: 41%;
+  border: 1px solid #222;
+  padding: 1em;
+}
+
+#infographic img {
+  max-width: 99%;
+}
+
+img#multitask {
+  width: 100%;
+  position: relative;
+  top: 5em;
+}
