@@ -1,0 +1,291 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+  background-color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #222;
+  font-size: 16px;
+  margin-top: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f47321;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  box-shadow: 2px 2px 3px #555;
+}
+
+header nav {
+  background: #005030;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 1.25em;
+  z-index: 5;
+}
+
+header img {
+  z-index: 10;
+  position: absolute;
+  bottom: 0;
+  left: 100px;
+}
+
+nav ul {
+  position: absolute;
+  top: 30%;
+  left: 275px;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  font-weight: bold;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 2em;
+  white-space: nowrap;
+}
+
+nav ul li:first-child {
+  border: 0;
+}
+
+nav ul li:last-child {
+  border: 0;
+  padding: 0 0.5em;
+  margin: 0;
+  background-color: #f47321;
+  font-style: italic;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav ul li a:visited {
+  color: #ffffff;
+}
+
+nav ul li a:hover {
+  color: #f47321;
+}
+
+nav ul li:last-child a:hover {
+  color: #ffffff;
+}
+
+main {
+  margin-top: 2em;
+}
+
+h1 {
+  visibility: hidden;
+}
+
+section.box, .about, form, .thanks {
+  padding: 2em;
+  padding-top: 0.1em;
+  margin: 0 auto;
+  max-width: 75%;
+  background: #fff;
+}
+
+.thanks {
+  text-align: center;
+}
+
+.about, form, .thanks {
+  max-width: 70%;
+  margin-top: 0;
+}
+
+.about img {
+  float: right;
+  max-width: 40%;
+  margin-right: 2em;
+}
+
+.about p {
+  margin-right: 50%;
+}
+
+.accordion {
+    margin:1em 0;
+    border: solid 1px #ccc;
+    margin-right: 55%;
+}
+.accordion h3, ul.tabs li a  {
+    background:#005030;
+    color:#fff;
+    cursor:pointer;
+    margin:0 0 1px 0;
+    padding:4px 10px;
+    text-transform: uppercase;
+}
+
+.accordion h3:hover {
+    color: #f47321;
+}
+
+.accordion h3.current {
+    color: #f47321;
+    cursor:default;
+}
+.accordion div.pane {
+    padding:5px 10px;
+}
+
+ul.tabs {
+  list-style: none;
+  padding-top: 2em;
+}
+
+.tabs li {
+  display: inline-block;
+}
+
+ul li a.active {
+  color: #f47321;
+}
+
+.tabs li a:hover {
+    color: #f47321;
+}
+
+#home {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width:100%;
+  margin-top: 0;
+
+}
+
+.alumni {
+  max-width: 800px;
+}
+
+.alumni div {
+  overflow: auto;
+}
+
+.alumni img {
+  float: left;
+  max-width: 200px;
+  margin-right: 1em;
+}
+
+.alumni a {
+  color: #f47321;
+  text-decoration: none;
+}
+
+.alumni a:hover {
+  color: #f47321;
+  text-decoration: none;
+}
+
+.photos img {
+  width: 100%;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+form {
+  line-height: 3em;
+  display: block;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+input, textarea {
+    border:1px solid #aaa;
+    border-radius:2px;
+    margin-right: 3em;
+}
+
+input {
+  width: 20em;
+  height: 3em;
+  padding: 0;
+  padding-left: 1em;
+  font-size: 0.7em;
+}
+
+.student, .which, .work {
+  display: inline-block;
+  margin-right: 0.1em;
+  box-shadow: none;
+  border-radius: 0;
+  border: 0;
+  width: auto;
+  height: auto;
+  margin: 1em;
+}
+
+textarea {
+  display: block;
+  width: 70em;
+  height: 10em;
+}
+
+label {
+  margin-right: 0.5em;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid #f47321;
+  box-shadow: 0 0 3px #aaa;
+}
+
+#submit {
+    background-color: #f47321;
+    border: 1px solid #ccc;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    box-shadow: none;
+}
+
+p strong {
+  font-weight: bold;
+}
+
+.thanks a {
+  color: #f47321;
+}

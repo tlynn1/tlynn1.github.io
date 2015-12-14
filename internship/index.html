@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <link href="css/slick.css" rel="stylesheet" />
+  <link href="css/slick-theme.css" rel="stylesheet" />
+  <title>Internships in Communications, Marketing and Digital Strategy - University of Miami Hurricanes Official Athletic Site</title>
+</head>
+<body>
+  <header>
+    <a href="http://www.hurricanesports.com"><img src=img/logo.png /></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Internship Central</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="alumni.html">Our Alumni</a></li>
+          <li><a href="apply.html">Apply</a></li>
+        </ul>
+      </nav>
+  </header>
+<div id="wrapper">
+  <main>
+      <h1>The U Interns</h1>
+      <section>
+        <div id="rotator">
+        <div id="home">
+        <div class="photos">
+          <div>
+            <img class="pics" src="img/marketing-playball.jpg" />
+          </div>
+          <div>
+            <img class="pics" src="img/video-espn3.jpg" />
+          </div>
+          <div>
+            <img class="pics" src="img/marketing-milkshakes.jpg" />
+          </div>
+          <div>
+            <img class="pics" src="img/comm-media.jpg" />
+          </div>
+          <div>
+            <img class="pics" src="img/video-camera.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+</div>
+</main>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="json/slick-1.5.9/slick/slick.min.js"></script>
+<script>
+$(document).ready(function(){
+var total = $('.pics img').length,
+    rand = Math.floor( Math.random() * total );
+  }
+</script>
+<script>
+  $(document).ready(function(){
+    $('.photos').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: false,
+      autoplay: true,
+      autoplaySpeed: 2500,
+      speed: 1500,
+      fade: true,
+      cssEase: 'linear',
+      centerMode: true,
+      pauseOnHover: false
+})
+  })
+</script>
+</body>
+</html>
